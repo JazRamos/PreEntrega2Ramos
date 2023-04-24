@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
-
+*{
+    padding: 0;
+    margin:0;
+    
+}
 .header {
     background-color: #e0d8de;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 20px;
-    text-align: right;
 
 }
 
-nav a {
-    font-family: Verdana;
+.nav-barra {
+    font-family: "Open Sans";
     color: #254441;
     text-decoration: none;
 }
