@@ -4,10 +4,11 @@
     margin:0;
     
 }
+
 .header {
     background-color: #e0d8de;
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 20px;
+    font-family: "Open Sans";
+    font-size: 18px;
 
 }
 
@@ -15,6 +16,7 @@
     font-family: "Open Sans";
     color: #254441;
     text-decoration: none;
+    background-color: #e0d8de;
 }
 
 p a {
