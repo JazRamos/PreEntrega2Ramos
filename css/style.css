@@ -56,9 +56,7 @@ p a {
 .centro {
     padding: 100px;
 }
-.animate__fadeInLeft{
-    --animate-duration: 2s;
-}
+
 #main-nosotres {
     font-family: "Open Sans";
     text-align: center;
