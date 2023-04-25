@@ -9,7 +9,6 @@
     background-color: #e0d8de;
     font-family: "Open Sans";
     font-size: 18px;
-
 }
 
 .nav-barra {
@@ -17,6 +16,8 @@
     color: #254441;
     text-decoration: none;
     background-color: #e0d8de;
+    display: flex;
+    justify-content: space-between;
 }
 
 p a {
@@ -26,15 +27,18 @@ p a {
     text-decoration: none;
 }
 
+ 
+ 
 .titulos {
     font-family: "Open Sans";
     font-weight: bolder;
-    background-color: #cdc7e5;
+    
+    background-image: "./Imagenes/amatista_e474b74d_1280x886.jpg";
 
 }
 
 #main-index {
-    background-color: #cdc7e5;
+   
     background-repeat: no-repeat;
     background-position: center;
     text-align: left;
