@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
-*{
+
+* {
     padding: 0;
-    margin:0;
-    
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .header {
     background-color: #e0d8de;
     font-family: "Open Sans";
     font-size: 18px;
+    background-image: "./Imagenes/amatista_e474b74d_1280x886.jpg";
 }
 
 .nav-barra {
@@ -27,24 +29,32 @@ p a {
     text-decoration: none;
 }
 
- 
- 
+
+
 .titulos {
     font-family: "Open Sans";
     font-weight: bolder;
-    
+
     background-image: "./Imagenes/amatista_e474b74d_1280x886.jpg";
 
 }
 
-#main-index {
-   
-    background-repeat: no-repeat;
-    background-position: center;
+.contenedor-index {
+    grid-template-areas:
+        "navLogo navIzq header header navDer navDer"
+        "parrafo parrafo parrafo img img img"
+        "footer footer footer footer footer footer";
+    grid-template-columns: repeat(6, 16.6%);
+    grid-template-rows: 100px auto 200px;
+    background-image: linear-gradient(#e0d8de, white);
     text-align: left;
     color: #254441;
     font-family: "Open Sans";
 
+}
+
+.centro {
+    padding: 100px;
 }
 
 #main-nosotres {
@@ -75,11 +85,22 @@ p a {
 
 .footer {
 
-    background-color: #e0d8de;
+    background-color: #cdc7e5;
     text-align: center;
 }
-@media (max-width: 519px){
-    .header{
-        justify-content:left;
+
+@media (max-width: 519px) {
+    .header {
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .contenedor-index {
+        justify-content: center;
+
+
+
+
     }
 }
