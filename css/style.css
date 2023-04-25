@@ -74,3 +74,8 @@ p a {
     background-color: #e0d8de;
     text-align: center;
 }
+@media (max-width: 519px){
+    .header{
+        justify-content:left;
+    }
+}
